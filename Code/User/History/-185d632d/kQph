@@ -1,0 +1,115 @@
+{
+	"layer": "top",
+	"modules-left": ["custom/launcher","custom/firefox","custom/terminal","cpu","memory","tray"],
+	"modules-center": ["river/tags"],
+	"modules-right": ["custom/updates", "pulseaudio","clock", "battery","custom/power"],
+	
+"pulseaudio": { // The module is often named "pulseaudio" for historical reasons, but handles PipeWire when configured
+    "format": "{volume}% {icon}",
+    "format-muted": "",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+    "tooltip": true,
+    "scroll-step": 1,
+    "icons": {
+        "default": ["", "  horrid", ""]
+    }
+},
+
+    "niri/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            // Icons for different workspace states
+            "active": "󰮊",
+            "default": "󰮊",
+            "empty": "󰮋",
+            "urgent": "󰇈",
+            "focused": "󰇈"
+        }
+    },
+	"network": {
+		"tooltip": false,
+		"format-wifi": "  {essid}",
+		"format-ethernet": ""
+	},
+	"backlight": {
+		"tooltip": false,
+		"format": " {}%",
+		"interval":1,
+        "on-scroll-up": "light -A 5",
+		"on-scroll-down": "light -U 5"
+	},
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+	"tray":{
+		"icon-size":18,
+		"spacing": 10
+	},
+    "clock": {
+        "format": "{: %I:%M %p    %m/%d/%Y}"
+    },
+    "cpu": {
+        "interval": 15,
+        "format": " {}%",
+        "max-length": 10
+    },
+    "memory": {
+        "interval": 30,
+        "format": " {}%",
+        "max-length": 10
+    },
+    "custom/media": {
+        "interval": 30,
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 20,
+        "format-icons": {
+            "spotify": " ",
+            "default": " "
+        },
+        "escape": true,
+        "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
+        "on-click": "playerctl play-pause"
+    },
+    "custom/launcher":{
+        "format": "󰣇 ",
+        "on-click": "cd ~/ && ./run_fastfetch.sh",
+        "on-click-right": "killall foot"
+    },
+    "custom/firefox":{
+        "format": "󰖟 ",
+        "on-click": "helium-browser",
+        "on-click-right": "killall helium-browser"
+    },
+    "custom/terminal":{
+        "format": " ",
+        "on-click": "foot",
+        "on-click-right": "killall foot"
+    },
+    "custom/power":{
+        "format": " ",
+        "on-click": "niri exit"
+    },
+    "custom/updates":{
+        "format": "{} Update(s)",
+        "exec": "checkupdates | wc -l",
+        "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
+        "interval": 15,
+        "on-click": "alacritty -e paru -Syu && notify-send 'The system has been updated' "
+    },
+    "custom/wallpaper":{
+        "format":" ",
+        "on-click": "bash ~/.config/system_scripts/pkill_bc"
+    }
+}

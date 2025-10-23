@@ -1,0 +1,7 @@
+2025-10-23 07:59:35.672 [info] Started local extension host with pid 53286.
+2025-10-23 07:59:37.137 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-23 07:59:37.201 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-23 07:59:37.231 [error] [Extension Host] (node:53286) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-23 07:59:38.378 [info] [perf] Render performance baseline is 18ms
+2025-10-23 07:59:39.661 [error] chatParticipant must be declared in package.json: claude-code

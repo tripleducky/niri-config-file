@@ -1,0 +1,36 @@
+2025-10-23 08:04:51.669 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-23 08:04:51.732 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-23 08:04:51.732 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-23 08:04:51.732 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-23 08:04:53.613 [info] Logged in as tripleducky
+2025-10-23 08:04:53.616 [info] Using the Electron fetcher.
+2025-10-23 08:04:54.065 [info] Got Copilot token for tripleducky
+2025-10-23 08:04:54.065 [info] Copilot Chat: 0.32.3, VS Code: 1.105.1
+2025-10-23 08:04:54.073 [info] activationBlocker from 'languageModelAccess' took for 330ms
+2025-10-23 08:04:54.124 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-10-23 08:04:54.124 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-23 08:04:54.135 [info] Registering default platform agent...
+2025-10-23 08:04:54.136 [info] activationBlocker from 'conversationFeature' took for 395ms
+2025-10-23 08:04:54.194 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-23 08:04:54.458 [info] Fetched model metadata in 703ms 1f38edec-3fef-48d5-8a02-6d68b39d1d78
+2025-10-23 08:04:54.537 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-23 08:04:54.538 [info] ccreq:a4905a0e.copilotmd | markdown
+2025-10-23 08:04:54.658 [info] Fetched auto model in 118ms.
+2025-10-23 08:10:00.792 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-23 08:10:00.792 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-23 08:10:00.792 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-23 08:10:00.792 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-23 08:10:01.462 [info] Logged in as tripleducky
+2025-10-23 08:10:01.466 [info] Using the Electron fetcher.
+2025-10-23 08:10:01.909 [info] Got Copilot token for tripleducky
+2025-10-23 08:10:01.909 [info] Copilot Chat: 0.32.3, VS Code: 1.105.1
+2025-10-23 08:10:01.918 [info] activationBlocker from 'languageModelAccess' took for 319ms
+2025-10-23 08:10:01.972 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-10-23 08:10:01.972 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-23 08:10:01.984 [info] Registering default platform agent...
+2025-10-23 08:10:01.984 [info] activationBlocker from 'conversationFeature' took for 390ms
+2025-10-23 08:10:02.329 [info] Fetched model metadata in 721ms cce8edf2-fe1c-4db5-ab19-83757643031a
+2025-10-23 08:10:02.365 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-23 08:10:02.418 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-23 08:10:02.418 [info] ccreq:1f7bdbcb.copilotmd | markdown
+2025-10-23 08:10:02.530 [info] Fetched auto model in 110ms.

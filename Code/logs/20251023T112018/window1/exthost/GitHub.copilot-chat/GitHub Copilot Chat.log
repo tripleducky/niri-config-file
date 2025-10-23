@@ -1,0 +1,36 @@
+2025-10-23 11:20:21.153 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-23 11:20:21.154 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-23 11:20:21.154 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-23 11:20:21.154 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-23 11:20:21.180 [info] Logged in as tripleducky
+2025-10-23 11:20:21.184 [info] Using the Electron fetcher.
+2025-10-23 11:20:22.808 [info] Got Copilot token for tripleducky
+2025-10-23 11:20:22.808 [info] Copilot Chat: 0.32.3, VS Code: 1.105.1
+2025-10-23 11:20:23.041 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-23 11:20:23.055 [info] Registering default platform agent...
+2025-10-23 11:20:23.056 [info] activationBlocker from 'conversationFeature' took for 32ms
+2025-10-23 11:20:23.056 [info] activationBlocker from 'languageModelAccess' took for 31ms
+2025-10-23 11:20:23.376 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-23 11:20:23.395 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-10-23 11:20:23.529 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-23 11:20:23.532 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-23 11:20:23.532 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-23 11:20:23.592 [info] Fetched model metadata in 223ms d5b9cf74-5aca-4cfb-90ff-ecaa1efb1df6
+2025-10-23 11:20:23.680 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-23 11:20:23.681 [info] ccreq:28cd4ab3.copilotmd | markdown
+2025-10-23 11:20:23.809 [info] Fetched auto model in 126ms.
+2025-10-23 11:21:32.465 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-23 11:21:32.465 [info] request done: requestId: [ee3c0a15-7d2f-4a5b-a1ec-7da3cb38d980] model deployment ID: []
+2025-10-23 11:21:32.466 [info] ccreq:c71ba940.copilotmd | success | claude-sonnet-4.5 | 5784ms | [panel/editAgent]
+2025-10-23 11:21:38.310 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-23 11:21:38.311 [info] request done: requestId: [ee3c0a15-7d2f-4a5b-a1ec-7da3cb38d980] model deployment ID: []
+2025-10-23 11:21:38.312 [info] ccreq:ca97877b.copilotmd | success | claude-sonnet-4.5 | 5678ms | [panel/editAgent]
+2025-10-23 11:21:47.320 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-23 11:21:47.320 [info] request done: requestId: [ee3c0a15-7d2f-4a5b-a1ec-7da3cb38d980] model deployment ID: []
+2025-10-23 11:21:47.321 [info] ccreq:9144a591.copilotmd | success | claude-sonnet-4.5 | 8975ms | [panel/editAgent]
+2025-10-23 11:22:00.133 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-23 11:22:00.133 [info] request done: requestId: [ee3c0a15-7d2f-4a5b-a1ec-7da3cb38d980] model deployment ID: []
+2025-10-23 11:22:00.133 [info] ccreq:b465322f.copilotmd | success | claude-sonnet-4.5 | 7859ms | [panel/editAgent]
+2025-10-23 11:22:17.574 [info] message 0 returned. finish reason: [stop]
+2025-10-23 11:22:17.574 [info] request done: requestId: [ee3c0a15-7d2f-4a5b-a1ec-7da3cb38d980] model deployment ID: []
+2025-10-23 11:22:17.575 [info] ccreq:06efcd4e.copilotmd | success | claude-sonnet-4.5 | 6191ms | [panel/editAgent]

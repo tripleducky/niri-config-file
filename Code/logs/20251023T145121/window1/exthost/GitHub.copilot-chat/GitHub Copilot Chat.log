@@ -1,0 +1,60 @@
+2025-10-23 14:51:24.222 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-23 14:51:24.222 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-23 14:51:24.222 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-23 14:51:24.222 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-23 14:51:24.256 [info] Logged in as tripleducky
+2025-10-23 14:51:24.261 [info] Using the Electron fetcher.
+2025-10-23 14:51:25.697 [info] Got Copilot token for tripleducky
+2025-10-23 14:51:25.697 [info] Copilot Chat: 0.32.3, VS Code: 1.105.1
+2025-10-23 14:51:25.916 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-23 14:51:25.929 [info] Registering default platform agent...
+2025-10-23 14:51:25.930 [info] activationBlocker from 'conversationFeature' took for 33ms
+2025-10-23 14:51:25.932 [info] activationBlocker from 'languageModelAccess' took for 32ms
+2025-10-23 14:51:26.225 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-23 14:51:26.245 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-10-23 14:51:26.388 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-23 14:51:26.391 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-23 14:51:26.391 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-23 14:51:26.441 [info] Fetched model metadata in 231ms c6c69a93-7586-4f63-96ab-5d62579f3989
+2025-10-23 14:51:26.529 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-23 14:51:26.529 [info] ccreq:16f4ff1a.copilotmd | markdown
+2025-10-23 14:51:26.641 [info] Fetched auto model in 110ms.
+2025-10-23 14:51:49.351 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-23 14:51:49.351 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-23 14:51:49.351 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-23 14:51:49.351 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-23 14:51:49.481 [info] Logged in as tripleducky
+2025-10-23 14:51:49.484 [info] Using the Electron fetcher.
+2025-10-23 14:51:49.793 [info] Got Copilot token for tripleducky
+2025-10-23 14:51:49.793 [info] Copilot Chat: 0.32.3, VS Code: 1.105.1
+2025-10-23 14:51:49.802 [info] activationBlocker from 'languageModelAccess' took for 204ms
+2025-10-23 14:51:49.855 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-10-23 14:51:49.855 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-23 14:51:49.867 [info] Registering default platform agent...
+2025-10-23 14:51:49.867 [info] activationBlocker from 'conversationFeature' took for 273ms
+2025-10-23 14:51:49.917 [info] Fetched model metadata in 309ms d0294088-4e20-49e6-aec1-ad0024e67850
+2025-10-23 14:51:49.919 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-23 14:51:49.920 [info] ccreq:977ba367.copilotmd | markdown
+2025-10-23 14:51:49.954 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-23 14:51:50.029 [info] Fetched auto model in 108ms.
+2025-10-23 14:53:46.388 [info] ccreq:0e04b810.copilotmd | success | gpt-5-mini | 24365ms | [panel/editAgent]
+2025-10-23 14:53:49.611 [info] ccreq:309bd024.copilotmd | success | gpt-5-mini | 2963ms | [panel/editAgent]
+2025-10-23 14:54:16.222 [info] ccreq:26f8e804.copilotmd | success | gpt-5-mini | 26501ms | [panel/editAgent]
+2025-10-23 14:55:12.402 [info] ccreq:8370ed07.copilotmd | success | gpt-5-mini | 55943ms | [panel/editAgent]
+2025-10-23 14:55:27.299 [info] ccreq:48b7a9a8.copilotmd | success | gpt-5-mini | 6490ms | [panel/editAgent]
+2025-10-23 14:57:04.621 [info] ccreq:cca94408.copilotmd | success | gpt-5-mini | 97300ms | [panel/editAgent]
+2025-10-23 14:58:31.877 [info] ccreq:17bd5909.copilotmd | unknown | gpt-5-mini | 86995ms | [panel/editAgent]
+2025-10-23 14:58:32.500 [info] message 0 returned. finish reason: [stop]
+2025-10-23 14:58:32.500 [info] request done: requestId: [b8418f14-ac76-479b-896e-e060b8a07741] model deployment ID: []
+2025-10-23 14:58:32.501 [info] ccreq:59e03f2a.copilotmd | success | gpt-4o-mini | 381ms | [title]
+2025-10-23 14:59:57.246 [info] ccreq:a65aa96b.copilotmd | success | gpt-5-mini | 59300ms | [panel/editAgent]
+2025-10-23 15:00:27.998 [info] ccreq:440f850e.copilotmd | success | gpt-5-mini | 10225ms | [panel/editAgent]
+2025-10-23 15:00:32.052 [info] ccreq:40381992.copilotmd | success | gpt-5-mini | 4028ms | [panel/editAgent]
+2025-10-23 15:00:45.223 [info] ccreq:87c2c12f.copilotmd | cancelled | gpt-5-mini | 13091ms | [panel/editAgent]
+2025-10-23 15:01:33.129 [info] ccreq:9440257f.copilotmd | success | gpt-5-mini | 17918ms | [panel/editAgent]
+2025-10-23 15:03:38.619 [info] ccreq:72da1199.copilotmd | success | gpt-5-mini | 125294ms | [panel/editAgent]
+2025-10-23 15:04:04.707 [info] Fetched model metadata in 218ms 2e16461d-b94c-4491-b0e6-6b1d9f1bfd3c
+2025-10-23 15:04:04.708 [info] ccreq:012e1258.copilotmd | markdown
+2025-10-23 15:04:11.369 [info] ccreq:5ac1850c.copilotmd | success | gpt-5-mini | 4409ms | [panel/editAgent]
+2025-10-23 15:04:25.707 [info] ccreq:af080ee7.copilotmd | success | gpt-5-mini | 14285ms | [panel/editAgent]
+2025-10-23 15:04:30.895 [info] ccreq:27e7a195.copilotmd | success | gpt-5-mini | 5160ms | [panel/editAgent]

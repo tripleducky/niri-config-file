@@ -1,0 +1,8 @@
+2025-10-23 09:02:13.455 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-23 09:02:13.581 [info] Started local extension host with pid 88092.
+2025-10-23 09:02:13.881 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-23 09:02:14.135 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-23 09:02:14.616 [error] [Extension Host] (node:88092) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-23 09:02:16.225 [info] [perf] Render performance baseline is 18ms
+2025-10-23 09:02:16.978 [error] chatParticipant must be declared in package.json: claude-code

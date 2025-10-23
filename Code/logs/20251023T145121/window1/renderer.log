@@ -1,0 +1,70 @@
+2025-10-23 14:51:22.706 [info] Started local extension host with pid 3143.
+2025-10-23 14:51:23.569 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-23 14:51:23.774 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-23 14:51:23.970 [error] [Extension Host] (node:3143) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-23 14:51:25.331 [info] [perf] Render performance baseline is 18ms
+2025-10-23 14:51:26.219 [error] chatParticipant must be declared in package.json: claude-code
+2025-10-23 14:51:44.770 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-23 14:51:44.876 [info] Started local extension host with pid 3347.
+2025-10-23 14:51:45.428 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-23 14:51:45.534 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-23 14:51:47.449 [info] [perf] Render performance baseline is 18ms
+2025-10-23 14:51:48.836 [error] [Extension Host] (node:3347) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-23 14:51:49.612 [error] chatParticipant must be declared in package.json: claude-code
+2025-10-23 15:04:05.256 [error] [16a] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at qAi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:11992)
+    at T4e.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at Object.h [as onWillAddFirstListener] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:420:115609)
+    at ode.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at new aa (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:420:120387)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+    at new mU (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:45913)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+2025-10-23 15:04:05.280 [error] [1b0] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at qAi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:11992)
+    at ZZi.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new aa (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:420:120442)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+    at new mU (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:45913)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:41944
+    at cDt.invokeFunction (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:674)
+2025-10-23 15:04:05.303 [error] [156f] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at qAi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:11992)
+    at fPs.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at Object.h [as onWillAddFirstListener] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:420:115338)
+    at ode.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at new aa (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:420:120387)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+    at new mU (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:45913)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+2025-10-23 15:04:05.339 [error] [16a] potential listener LEAK detected, having 263 listeners already. MOST frequent listener (89):: Error
+    at qAi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:11992)
+    at T4e.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at Object.h [as onWillAddFirstListener] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:420:115609)
+    at ode.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at new aa (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:420:120387)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+    at new mU (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:45913)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+2025-10-23 15:04:05.366 [error] [1b0] potential listener LEAK detected, having 263 listeners already. MOST frequent listener (89):: Error
+    at qAi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:11992)
+    at ZZi.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new aa (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:420:120442)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+    at new mU (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:45913)
+    at cDt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1716)
+    at cDt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:1213)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2212:41944
+    at cDt.invokeFunction (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1398:674)

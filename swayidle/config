@@ -1,0 +1,10 @@
+# Time out after 10 minutes of inactivity
+timeout 600 'loginctl lock-session' \
+resume 'loginctl unlock-session'
+
+# Suspend after 15 minutes of inactivity
+timeout 900 'systemd-run --user systemctl suspend' \
+resume 'loginctl unlock-session'
+
+# Lock the screen immediately before sleep
+before-sleep 'loginctl lock-session'

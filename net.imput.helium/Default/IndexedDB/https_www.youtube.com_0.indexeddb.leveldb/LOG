@@ -1,0 +1,12 @@
+2025/10/23-11:14:54.375 6b8 Reusing MANIFEST /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/23-11:14:54.375 6b8 Recovering log #7
+2025/10/23-11:14:54.379 6b8 Reusing old log /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2025/10/23-11:16:50.812 6a5 Level-0 table #12: started
+2025/10/23-11:16:50.857 6a5 Level-0 table #12: 1045190 bytes OK
+2025/10/23-11:16:50.863 6a5 Delete type=0 #7
+2025/10/23-11:19:47.745 6a5 Compacting 1@1 + 1@2 files
+2025/10/23-11:19:47.752 6a5 Generated table #13@1: 364 keys, 64522 bytes
+2025/10/23-11:19:47.752 6a5 Compacted 1@1 + 1@2 files => 64522 bytes
+2025/10/23-11:19:47.756 6a5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/23-11:19:47.757 6a5 Delete type=2 #12
+2025/10/23-11:19:47.757 6a5 Delete type=2 #9

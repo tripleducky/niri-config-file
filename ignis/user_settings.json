@@ -1,0 +1,45 @@
+{
+    "appearance": {
+        "wallcolors": {
+            "wallpaper_path": "/home/andre/Pictures/Wallpapers/default.png",
+            "color_scheme": "monochrome",
+            "auto_dark": {}
+        }
+    },
+    "interface": {
+        "modules": {
+            "location": {
+                "tasks": 0
+            },
+            "visibility": {
+                "launcher": true,
+                "tasks": true,
+                "media": false
+            },
+            "bar_id": {},
+            "options": {}
+        },
+        "bar": {
+            "side": "top",
+            "density": 2,
+            "floating": false,
+            "vertical": false
+        },
+        "bar2": {
+            "enabled": false,
+            "floating": false,
+            "side": "top",
+            "vertical": false
+        },
+        "notifications": {},
+        "launcher": {},
+        "misc": {
+            "screen_corners": "disabled",
+            "shell_corners": false
+        }
+    },
+    "services": {
+        "recorder": {},
+        "osd": {}
+    }
+}

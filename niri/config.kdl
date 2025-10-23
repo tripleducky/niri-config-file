@@ -4,6 +4,7 @@
 // ────────────── Input Configuration ──────────────
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
 input {
+    focus-follows-mouse max-scroll-amount="10%"
     keyboard {
         xkb {
             layout "us" // Use the German keyboard layout
@@ -151,6 +152,7 @@ binds {
     MOD+SHIFT+E                     { quit; } // Also quits Niri
     MOD+SHIFT+P                         { power-off-monitors; } // Turn off screens (useful for OLED or privacy)
     ALT+TAB                               repeat=false { toggle-overview; }
+    Print { screenshot; }
 }
 // ────────────── Startup Applications ──────────────
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
@@ -246,3 +248,4 @@ binds {
     off
   }
 }
+

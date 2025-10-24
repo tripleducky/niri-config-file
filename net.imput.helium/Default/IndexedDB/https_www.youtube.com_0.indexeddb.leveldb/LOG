@@ -1,12 +1,48 @@
-2025/10/23-11:14:54.375 6b8 Reusing MANIFEST /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/23-11:14:54.375 6b8 Recovering log #7
-2025/10/23-11:14:54.379 6b8 Reusing old log /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
-2025/10/23-11:16:50.812 6a5 Level-0 table #12: started
-2025/10/23-11:16:50.857 6a5 Level-0 table #12: 1045190 bytes OK
-2025/10/23-11:16:50.863 6a5 Delete type=0 #7
-2025/10/23-11:19:47.745 6a5 Compacting 1@1 + 1@2 files
-2025/10/23-11:19:47.752 6a5 Generated table #13@1: 364 keys, 64522 bytes
-2025/10/23-11:19:47.752 6a5 Compacted 1@1 + 1@2 files => 64522 bytes
-2025/10/23-11:19:47.756 6a5 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/10/23-11:19:47.757 6a5 Delete type=2 #12
-2025/10/23-11:19:47.757 6a5 Delete type=2 #9
+2025/10/24-07:27:25.517 4a0 Reusing MANIFEST /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/24-07:27:25.518 4a0 Recovering log #31
+2025/10/24-07:27:25.531 4a0 Reusing old log /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000031.log 
+2025/10/24-07:27:25.949 4a0 Level-0 table #36: started
+2025/10/24-07:27:25.961 4a0 Level-0 table #36: 1535072 bytes OK
+2025/10/24-07:27:25.966 4a0 Delete type=0 #31
+2025/10/24-07:27:26.519 4b4 Compacting 1@1 + 1@2 files
+2025/10/24-07:27:26.526 4b4 Generated table #37@1: 467 keys, 99236 bytes
+2025/10/24-07:27:26.526 4b4 Compacted 1@1 + 1@2 files => 99236 bytes
+2025/10/24-07:27:26.530 4b4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/24-07:27:26.530 4b4 Delete type=2 #36
+2025/10/24-07:27:26.530 4b4 Delete type=2 #33
+2025/10/24-07:33:17.641 4a1 Level-0 table #39: started
+2025/10/24-07:33:17.652 4a1 Level-0 table #39: 1276098 bytes OK
+2025/10/24-07:33:17.658 4a1 Delete type=0 #35
+2025/10/24-07:34:30.556 4a1 Compacting 1@1 + 1@2 files
+2025/10/24-07:34:30.564 4a1 Generated table #40@1: 484 keys, 78645 bytes
+2025/10/24-07:34:30.565 4a1 Compacted 1@1 + 1@2 files => 78645 bytes
+2025/10/24-07:34:30.569 4a1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/24-07:34:30.569 4a1 Delete type=2 #39
+2025/10/24-07:34:30.569 4a1 Delete type=2 #37
+2025/10/24-07:44:47.158 4a1 Level-0 table #42: started
+2025/10/24-07:44:47.168 4a1 Level-0 table #42: 1070867 bytes OK
+2025/10/24-07:44:47.173 4a1 Delete type=0 #38
+2025/10/24-07:45:06.545 4a1 Compacting 1@1 + 1@2 files
+2025/10/24-07:45:06.551 4a1 Generated table #43@1: 499 keys, 69079 bytes
+2025/10/24-07:45:06.551 4a1 Compacted 1@1 + 1@2 files => 69079 bytes
+2025/10/24-07:45:06.555 4a1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/24-07:50:18.659 4a1 Level-0 table #45: started
+2025/10/24-07:50:18.671 4a1 Level-0 table #45: 1181759 bytes OK
+2025/10/24-07:50:18.677 4a1 Delete type=2 #40
+2025/10/24-07:50:18.677 4a1 Delete type=0 #41
+2025/10/24-07:50:18.677 4a1 Delete type=2 #42
+2025/10/24-07:50:38.883 4a1 Compacting 1@1 + 1@2 files
+2025/10/24-07:50:38.890 4a1 Generated table #46@1: 527 keys, 74092 bytes
+2025/10/24-07:50:38.890 4a1 Compacted 1@1 + 1@2 files => 74092 bytes
+2025/10/24-07:50:38.894 4a1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/24-07:50:38.895 4a1 Delete type=2 #43
+2025/10/24-07:50:38.895 4a1 Delete type=2 #45
+2025/10/24-07:59:02.993 4a1 Level-0 table #48: started
+2025/10/24-07:59:03.003 4a1 Level-0 table #48: 1054399 bytes OK
+2025/10/24-07:59:03.010 4a1 Delete type=0 #44
+2025/10/24-07:59:35.760 4a1 Compacting 1@1 + 1@2 files
+2025/10/24-07:59:35.806 4a1 Generated table #49@1: 539 keys, 65587 bytes
+2025/10/24-07:59:35.806 4a1 Compacted 1@1 + 1@2 files => 65587 bytes
+2025/10/24-07:59:35.811 4a1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/24-07:59:35.811 4a1 Delete type=2 #48
+2025/10/24-07:59:35.811 4a1 Delete type=2 #46

@@ -7,9 +7,6 @@
         "folders": [
             {
                 "folderUri": "file:///home/andre/.config/quickshell"
-            },
-            {
-                "folderUri": "file:///home/andre/.config/niri"
             }
         ],
         "emptyWindows": []
@@ -44,20 +41,20 @@
             "titleBarHeight": 35,
             "activityBarWidth": 48,
             "sideBarWidth": 234,
-            "auxiliaryBarWidth": 0,
+            "auxiliaryBarWidth": 234,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/andre/.config/niri",
-            "backupPath": "/home/andre/.config/Code/Backups/28307882b346b8d974c2ab51a17d2e0e",
+            "folder": "file:///home/andre/.config/quickshell",
+            "backupPath": "/home/andre/.config/Code/Backups/dacaac82ce437b2d141b929dd232b549",
             "uiState": {
                 "mode": 1,
                 "x": 0,
                 "y": 0,
-                "width": 936,
+                "width": 1888,
                 "height": 1138
             }
         },

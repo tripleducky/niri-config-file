@@ -1,12 +1,21 @@
-2025/10/23-10:12:31.033 4df Reusing MANIFEST /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/23-10:12:31.033 4df Recovering log #4
-2025/10/23-10:12:31.034 4df Reusing old log /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
-2025/10/23-10:15:21.553 4df Level-0 table #8: started
-2025/10/23-10:15:21.564 4df Level-0 table #8: 1279602 bytes OK
-2025/10/23-10:15:21.569 4df Delete type=0 #4
-2025/10/23-10:18:24.130 4de Compacting 1@1 + 1@2 files
-2025/10/23-10:18:24.180 4de Generated table #9@1: 345 keys, 66010 bytes
-2025/10/23-10:18:24.180 4de Compacted 1@1 + 1@2 files => 66010 bytes
-2025/10/23-10:18:24.187 4de compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/10/23-10:18:24.188 4de Delete type=2 #5
-2025/10/23-10:18:24.188 4de Delete type=2 #8
+2025/10/23-18:23:55.715 3eb0 Reusing MANIFEST /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/23-18:23:55.715 3eb0 Recovering log #24
+2025/10/23-18:23:55.716 3eb0 Reusing old log /home/andre/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000024.log 
+2025/10/23-18:31:47.956 3e9e Level-0 table #29: started
+2025/10/23-18:31:47.969 3e9e Level-0 table #29: 1730212 bytes OK
+2025/10/23-18:31:47.974 3e9e Delete type=0 #24
+2025/10/23-18:32:00.379 3e9e Compacting 1@1 + 1@2 files
+2025/10/23-18:32:00.386 3e9e Generated table #30@1: 419 keys, 65126 bytes
+2025/10/23-18:32:00.386 3e9e Compacted 1@1 + 1@2 files => 65126 bytes
+2025/10/23-18:32:00.390 3e9e compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/23-18:32:00.391 3e9e Delete type=2 #29
+2025/10/23-18:32:00.391 3e9e Delete type=2 #26
+2025/10/23-19:00:23.952 3e9e Level-0 table #32: started
+2025/10/23-19:00:24.000 3e9e Level-0 table #32: 1059350 bytes OK
+2025/10/23-19:00:24.006 3e9e Delete type=0 #28
+2025/10/23-19:00:47.520 3eb0 Compacting 1@1 + 1@2 files
+2025/10/23-19:00:47.526 3eb0 Generated table #33@1: 437 keys, 76300 bytes
+2025/10/23-19:00:47.527 3eb0 Compacted 1@1 + 1@2 files => 76300 bytes
+2025/10/23-19:00:47.531 3eb0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/23-19:00:47.531 3eb0 Delete type=2 #32
+2025/10/23-19:00:47.531 3eb0 Delete type=2 #30

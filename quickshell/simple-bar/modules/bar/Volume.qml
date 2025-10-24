@@ -2,7 +2,6 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Services.Pipewire
-import Quickshell.Widgets
 
 Item {
     PwObjectTracker {
@@ -21,13 +20,15 @@ Item {
         anchors.fill: parent
         spacing: 6
 
+        // Icon
         Text {
             text: muted ? "" : "󰕾" // Mute icon when muted, volume icon otherwise
             color: "#999999"
-            font.family: "Symbols Nerd Font" // Adjust font family as needed
+            font.family: "Symbols Nerd Font"
             font.pixelSize: 16
         }
 
+        // Percent text
         Text {
             text: {
                 var vol = Number(volume);

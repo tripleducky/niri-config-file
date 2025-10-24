@@ -30,3 +30,5 @@
 2025-10-23 14:51:48.942 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
 2025-10-23 14:51:49.611 [error] Error: chatParticipant must be declared in package.json: claude-code
     at sqt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:5906)
+2025-10-23 15:34:19.832 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-23 15:34:19.858 [info] Extension host with pid 3347 exiting with code 0

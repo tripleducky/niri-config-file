@@ -4,6 +4,7 @@ import QtQuick.Controls
 import Quickshell
 import Quickshell.Services.SystemTray
 
+// Minimal system tray row; shows icons and opens menus with the bar window context
 RowLayout {
     // The window the bar lives in; required for showing platform menus
     required property var window
@@ -45,9 +46,7 @@ RowLayout {
                     }
                 }
 
-                onWheel: function(wheel) {
-                    modelData.scroll(wheel.angleDelta.y / 120, "vertical");
-                }
+                onWheel: function(wheel) { modelData.scroll(wheel.angleDelta.y / 120, "vertical"); }
 
                 ToolTip.visible: containsMouse && (modelData.tooltip?.title !== undefined && modelData.tooltip?.title !== "")
                 ToolTip.text: modelData.tooltip?.title ?? ""
